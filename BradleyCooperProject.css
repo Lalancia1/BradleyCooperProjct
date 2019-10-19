@@ -1,0 +1,332 @@
+#laGrandeDiv{
+    width: 1100px;
+    height:300px;
+    flex-direction: column;
+    margin: auto;
+    float: left;
+clear:both;
+}
+
+#Gone{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+#Ctwo{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 140px;
+}
+#Cthree{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+#titleBradley{
+    background-color: rgb(53, 187, 122);
+    text-align: center;
+    padding-top: 10px;
+    font-size: 10px;
+    width: 200px;
+    height: 100px;
+    color:white;
+
+}
+#resume{
+ font-size:10px;
+    color:white;
+    margin-top: -45px;
+    margin-left: 20px;
+    border:1px solid white;
+    width: 60px;
+    height: 15px;
+}
+i{
+    font-size: 15px;
+}
+#contact{
+    font-size:10px;
+    margin-top: -25px;
+    margin-left: 120px;
+    border:1px solid white;
+    color:white;
+    width: 60px;
+    height:15px ;
+}
+ul{
+    list-style-type: none;
+    display: inline-flex;
+    flex-direction: row;
+}
+#profileX{
+    background-color: rgb(255,158,0);
+    width: 100px;
+    height: 100px;
+    text-align:center;
+    color:white;
+    font-size:10px;
+    margin-top: 10px;
+
+}
+#profile{
+    font-size: 10px;
+    margin-top: 60px;
+}
+#experience{
+font-size: 10px;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+}
+#education{
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+}
+#blog{
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+}
+#blue{
+    width: 100px;
+    height: 100px;
+    background-color:rgb(30,139,196);
+}
+#rouge{
+    width: 100px;
+    height: 100px;
+    background-color:rgb(241,90,73);
+}
+#vert{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(53,188,122);
+}
+#plusOrange{
+    width: 100px;
+    height: 100px;
+    background-color:rgb(248,105,37);
+}
+#paraSocial{
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+}
+#cerfBlue{
+    width: 100px;
+    height: 100px;
+    background-color:rgb(30,139,196);
+}
+#paraContact{
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+}
+#portfolioOrange{
+    width: 100px;
+    height: 100px;
+    background-color:rgb(248,105,37);
+}
+#paraPortfolio{
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+#three{
+    margin-top: 100px;
+}
+#lesImages {
+    position: absolute;
+    width: 200px;
+    height: 290px;
+    float: right;
+
+    margin-left: 390px;
+    margin-top: 56px;
+}
+
+
+
+
+#image1{
+position: absolute;
+    width: 200px;
+    height: 294px;
+    z-index:2;
+}
+#image2{
+    width:200px;
+    height:294px;
+    z-index:1;
+    visibility:hidden;
+}
+#monAnimation{/*icicommence la deuxieme animation*/
+    position:absolute;
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 600px;
+    float:right;
+    clear:both;
+}
+#bar{
+    background-color: lawngreen;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius:50% 50%;
+    animation-name: round1;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function:ease ;
+    animation-duration: 10s;
+}
+@keyframes round1 {
+    0%{transform: translateX(50px)scale(0.5,0.5);}
+    50%{transform: rotateZ(360deg)scale(1,1);}
+    100%{transform:scale(0.5,0.5);}
+}
+#tery{
+    position:absolute;
+    margin-top: 50px;
+    margin-left: 15px;
+
+}
+
+#foo{
+    background-color: indianred;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius:50% 50%;
+    margin-top: 50px;
+    margin-left: 100px;
+    animation-name: round2;
+    animation-timing-function:ease ;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-duration: 10s;
+}
+@keyframes round2 {
+    0%{transform: translateY(100px)scale(0.5,0.5);}
+    50%{transform: translateX(100px)rotateZ(90deg)scale(1,1);}
+    100%{transform: translateY(50px)rotateZ(90deg)scale(0.5,0.5);}
+}
+
+#tery1{
+    position:absolute;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+#foo2{
+    position:absolute;
+    background-color:gray;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius:50% 50%;
+    margin-top: -100px;
+    margin-left: -50px;
+    animation-name: round3;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function:ease;
+    animation-duration: 10s;
+}
+@keyframes round3 {
+    0%{transform: translateX(100px)rotateZ(160deg)scale(0.5,0.5);}
+    50%{transform: translateY(50px)rotateZ(160deg)scale(1,1);}
+    80%{transform: translateY(50px)rotateZ(160deg)scale(0.5,0.5);}
+    100%{transform: translateX(100px)rotateZ(160deg)scale(0.5,0.5);}
+}
+#tery2{
+    position:absolute;
+    margin-top: 30px;
+    margin-left: 20px;}
+#bar1{
+    background-color:gray;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius:50% 50%;
+    margin-top: 20px;
+    margin-left: 100px;
+    animation-name: round4;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function:ease;
+    animation-duration: 10s;
+}
+@keyframes round4 {
+    0%{transform: translateX(250px)rotateZ(160deg)scale(0.5,0.5);}
+    50%{transform: translateY(50px)rotateZ(160deg)scale(1,1);}
+    80%{transform: translateY(50px)rotateZ(160deg)scale(0.5,0.5);}
+    100%{transform: translateX(250px)rotateZ(160deg)scale(0.5,0.5);}
+}
+#four{
+    position:absolute;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#foo1{
+    background-color: indianred;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius:50% 50%;
+    margin-top: -70px;
+    margin-left: 300px;
+    animation-name: round5;
+    animation-timing-function:ease ;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-duration: 10s;
+}
+@keyframes round5 {
+    0%{transform: translateY(100px)scale(0.5,0.5);}
+    50%{transform: translateX(50px)rotateZ(90deg)scale(1,1);}
+    100%{transform: translateY(50px)rotateZ(90deg)scale(0.5,0.5);}
+}
+
+#five{
+    position:absolute;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+#foo3{
+    background-color:gray;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius:50% 50%;
+    margin-top: -60px;
+    margin-left: 280px;
+    animation-name: round3;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function:ease;
+    animation-duration: 10s;
+}
+@keyframes round3 {
+    0%{transform: translateX(200px)rotateZ(160deg)scale(0.5,0.5);}
+    50%{transform: translateY(150px)rotateZ(160deg)scale(1,1);}
+    80%{transform: translateY(100px)rotateZ(160deg)scale(0.5,0.5);}
+    100%{transform: translateX(200px)rotateZ(160deg)scale(0.5,0.5);}
+}
+#six{
+    position:absolute;
+    margin-top: 30px;
+    margin-left: 20px;
+}
