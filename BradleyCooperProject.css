@@ -1,3 +1,7 @@
+a{
+    text-decoration: none;
+    text-decoration-color: white;
+}
 #laGrandeDiv{
     width: 1100px;
     height:300px;
@@ -28,6 +32,7 @@ clear:both;
     text-align: center;
     padding-top: 10px;
     font-size: 10px;
+    font-family: Arial;
     width: 200px;
     height: 100px;
     color:white;
@@ -35,6 +40,7 @@ clear:both;
 }
 #resume{
  font-size:10px;
+    font-family: Arial;
     color:white;
     margin-top: -45px;
     margin-left: 20px;
@@ -47,6 +53,7 @@ i{
 }
 #contact{
     font-size:10px;
+    font-family: Arial;
     margin-top: -25px;
     margin-left: 120px;
     border:1px solid white;
@@ -54,11 +61,20 @@ i{
     width: 60px;
     height:15px ;
 }
+#contact:hover{
+    transition: 2.5s;
+    color: yellow;
+}
+
+
 ul{
     list-style-type: none;
     display: inline-flex;
     flex-direction: row;
 }
+
+
+
 #profileX{
     background-color: rgb(255,158,0);
     width: 100px;
@@ -66,27 +82,37 @@ ul{
     text-align:center;
     color:white;
     font-size:10px;
+    font-family: Arial;
     margin-top: 10px;
 
 }
 #profile{
     font-size: 10px;
+    font-family: Arial;
     margin-top: 60px;
 }
 #experience{
 font-size: 10px;
+    font-family: arial;
     color: white;
     text-align: center;
     margin-top: 60px;
 }
+#experience:hover{
+       background-color: yellow;
+        transition: 2.5s;
+}
 #education{
     font-size: 10px;
+    font-family: Arial;
     color: white;
     text-align: center;
     margin-top: 60px;
 }
 #blog{
+
     font-size: 10px;
+    font-family: Arial;
     color: white;
     text-align: center;
     margin-top: 60px;
@@ -113,6 +139,7 @@ font-size: 10px;
 }
 #paraSocial{
     font-size: 10px;
+    font-family: Arial;
     color: white;
     text-align: center;
     margin-top: 60px;
@@ -124,6 +151,7 @@ font-size: 10px;
 }
 #paraContact{
     font-size: 10px;
+    font-family: arial;
     color: white;
     text-align: center;
     margin-top: 60px;
@@ -135,6 +163,7 @@ font-size: 10px;
 }
 #paraPortfolio{
     font-size: 10px;
+    font-family: Arial;
     color: white;
     text-align: center;
     margin-top: 60px;
