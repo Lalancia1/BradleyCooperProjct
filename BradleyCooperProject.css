@@ -1,6 +1,6 @@
 a{
     text-decoration: none;
-    text-decoration-color: white;
+
 }
 #laGrandeDiv{
     width: 1100px;
@@ -10,7 +10,22 @@ a{
     float: left;
 clear:both;
 }
-
+@media (max-width: 1388px) {
+#laGrandeDiv{
+    width: 100%;
+    height: 100%;
+}
+    ul{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (max-width: 812px) {
+    #laGrandeDiv{
+        width: 100%;
+        height: 100%;
+    }
+}
 #Gone{
     position: absolute;
     margin-left: 50px;
@@ -32,7 +47,7 @@ clear:both;
     text-align: center;
     padding-top: 10px;
     font-size: 10px;
-    font-family: Arial;
+    font-family: Arial, serif;
     width: 200px;
     height: 100px;
     color:white;
@@ -41,7 +56,6 @@ clear:both;
 #resume{
  font-size:10px;
     font-family: Arial;
-    color:white;
     margin-top: -45px;
     margin-left: 20px;
     border:1px solid white;
@@ -51,36 +65,37 @@ clear:both;
 i{
     font-size: 15px;
 }
+p:hover{
+    background-color: yellow;
+
+}
 #contact{
     font-size:10px;
     font-family: Arial;
     margin-top: -25px;
     margin-left: 120px;
     border:1px solid white;
-    color:white;
     width: 60px;
     height:15px ;
 }
-#contact:hover{
-    transition: 2.5s;
+/*#contact:hover{
     color: yellow;
-}
-
-
+    transition: 0.5s;
+}*/
 ul{
     list-style-type: none;
     display: inline-flex;
     flex-direction: row;
 }
-
-
+li{
+    color:white;
+}
 
 #profileX{
     background-color: rgb(255,158,0);
     width: 100px;
     height: 100px;
     text-align:center;
-    color:white;
     font-size:10px;
     font-family: Arial;
     margin-top: 10px;
@@ -91,30 +106,31 @@ ul{
     font-family: Arial;
     margin-top: 60px;
 }
+
 #experience{
 font-size: 10px;
     font-family: arial;
-    color: white;
-    text-align: center;
+margin-left: 20px;
     margin-top: 60px;
 }
 #experience:hover{
-       background-color: yellow;
-        transition: 2.5s;
+    background-color: forestgreen;
 }
+
+
 #education{
     font-size: 10px;
     font-family: Arial;
-    color: white;
-    text-align: center;
+    margin-left: 20px;
     margin-top: 60px;
 }
+
 #blog{
 
     font-size: 10px;
     font-family: Arial;
     color: white;
-    text-align: center;
+    margin-left: 20px;
     margin-top: 60px;
 }
 #blue{
