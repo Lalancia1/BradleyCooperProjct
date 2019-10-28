@@ -1,55 +1,105 @@
+body {
+    width:1100px;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+#tousLesCarrés{
+    width: 80%;
+height: 100%;
+    float: left;
+}
+#lesImages{
+    width: 20%;
+    height: 100%;
+
+}
+
 a{
     text-decoration: none;
 
 }
-#laGrandeDiv{
-    width: 1100px;
-    height:300px;
+ .fa-address-book{
+    width: 50px;
+    height: 50px;
+}
+#laGrandeDiv{/*images +carrés*/
+    background-color:yellow;
+    width:100% ;
+    height: 100%;
     flex-direction: column;
     margin: auto;
     float: left;
 clear:both;
 }
-@media (max-width: 1388px) {
-#laGrandeDiv{
+#TotalDiv{
+    position: absolute;
+    display-inside: ruby-base-container;
+    background-color: yellow;
     width: 100%;
     height: 100%;
+    padding: 10px;
+    margin: auto;
+    float: left;
+    clear:both;
 }
-    ul{
+
+@media (max-width: 375px) {
+#TotalDiv{
+    width: 100%;
+
+}
+   #lesImages{
+       width: 100%;
+   }
+}
+@media (max-width: 1336px) {
+    #TotalDiv{
         width: 100%;
-        height: 100%;
+
+
+    }
+    #lesImages{
+        width: 100%;
     }
 }
-@media (max-width: 812px) {
-    #laGrandeDiv{
-        width: 100%;
-        height: 100%;
-    }
+#responsive1{
+    width:62%;
+    height: 12%;
+    margin-left:50px;
+
 }
 #Gone{
-    position: absolute;
+    width: 80%;
+    height: 1%;
+    flex-direction: row;
     margin-left: 50px;
     margin-top: 30px;
 }
 #Ctwo{
     position: absolute;
-    margin-left: 50px;
-    margin-top: 140px;
+    margin-left: 4%;
+    margin-top:7%;
 }
 #Cthree{
     position: absolute;
-    margin-left: 50px;
-    margin-top: 150px;
+    margin-left: 5%;
+    margin-top: 8%;
 }
 
 #titleBradley{
     background-color: rgb(53, 187, 122);
+    width: 78%;
+    height: 60%;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 36%;
+    padding-left: 2px;
     font-size: 10px;
     font-family: Arial, serif;
-    width: 200px;
-    height: 100px;
+    margin-left: -17.5%;
+
+
     color:white;
 
 }
@@ -93,18 +143,20 @@ li{
 
 #profileX{
     background-color: rgb(255,158,0);
-    width: 100px;
-    height: 100px;
-    text-align:center;
-    font-size:10px;
+    width: 24%;
+
+   /* text-align: center;*/
+    font-size: 10px;
     font-family: Arial;
-    margin-top: 10px;
+    margin-top:2%;
+    margin-left: -24%;
 
 }
 #profile{
     font-size: 10px;
     font-family: Arial;
     margin-top: 60px;
+
 }
 
 #experience{
@@ -140,7 +192,7 @@ margin-left: 20px;
 }
 #rouge{
     width: 100px;
-    height: 100px;
+height:100px;
     background-color:rgb(241,90,73);
 }
 #vert{
@@ -173,6 +225,7 @@ margin-left: 20px;
     margin-top: 60px;
 }
 #portfolioOrange{
+
     width: 100px;
     height: 100px;
     background-color:rgb(248,105,37);
@@ -187,13 +240,14 @@ margin-left: 20px;
 
 
 #three{
-    margin-top: 100px;
+    margin-top: 30%;
+    margin-left: -4%;
 }
 #lesImages {
     position: absolute;
-    width: 200px;
-    height: 290px;
-    float: right;
+    width: 20%;
+   height:100%;
+    float: left;
 
     margin-left: 390px;
     margin-top: 56px;
@@ -205,12 +259,13 @@ margin-left: 20px;
 #image1{
 position: absolute;
     width: 200px;
-    height: 294px;
+    height:43.7%;
     z-index:2;
+    margin-left: 2%;
 }
 #image2{
     width:200px;
-    height:294px;
+    height:43.7%;
     z-index:1;
     visibility:hidden;
 }
